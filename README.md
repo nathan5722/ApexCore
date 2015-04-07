@@ -17,7 +17,7 @@ Thanks go out to the following people for various patches/code (listed in the
 order they were added) (there may be duplicates or invalid names, most of them
 were extracted from commits):
 
-Amber Berg, dythzer, XEQT, death420, balrok, TOM_RUS,
+Amber Berg, Emorrowx, dythzer, XEQT, death420, balrok, TOM_RUS,
 runningnak3d, Seline, KingPin, raczman, bogie, Neo2003, NoFantasy, Derex,
 freghar, toilet1, megamage, MadJack, WarHead, gvcoman, Ntsc, arrai, jrkpote,
 Seraphim, vagoth, KerchumA222, Rognar, Blaymoira, DragonHunter, Molius, ApoC,
