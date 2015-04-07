@@ -38,6 +38,7 @@ DEN_North, StarJoker, Nezemnoy, X-Savior, subhuman_bob, Ambal, Brueggus, sparc,
 jojo, Trojan, tvaroh, Genars, BombermaG, Bulkin, nesocip, xILOSWag, SilverIce,
 Uruviel, timmit, Seizerkiller, Stokrotka, JoN0, Tanatos, Hunteee, Alyen,
 Farah, Them, DaGNU, arthurcik, BudIcePenguin, Amok, Amit86, onkelz28, Azrael,
+And ofc jamie the fgt
 
 Signing off
 
