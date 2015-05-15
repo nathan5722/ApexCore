@@ -27,6 +27,7 @@
 
 ## Finished Stuff
 * Auth
+* PvP Towers for the Blasted Lands
 * Char Enum
 * World Login
 * Talents / Known spells
