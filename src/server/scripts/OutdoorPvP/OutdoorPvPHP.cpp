@@ -90,12 +90,12 @@ void OutdoorPvPHP::HandlePlayerEnterZone(Player* player, uint32 zone)
     // add buffs
     if (player->GetTeam() == ALLIANCE)
     {
-        if (m_AllianceTowersControlled >=3)
+        if (m_AllianceTowersControlled >=4)
             player->CastSpell(player, AllianceBuff, true);
     }
     else
     {
-        if (m_HordeTowersControlled >=3)
+        if (m_HordeTowersControlled >=4)
             player->CastSpell(player, HordeBuff, true);
     }
     OutdoorPvP::HandlePlayerEnterZone(player, zone);
@@ -120,9 +120,9 @@ bool OutdoorPvPHP::Update(uint32 diff)
     bool changed = OutdoorPvP::Update(diff);
     if (changed)
     {
-        if (m_AllianceTowersControlled == 3)
+        if (m_AllianceTowersControlled == 4)
             TeamApplyBuff(TEAM_ALLIANCE, AllianceBuff, HordeBuff);
-        else if (m_HordeTowersControlled == 3)
+        else if (m_HordeTowersControlled == 4)
             TeamApplyBuff(TEAM_HORDE, HordeBuff, AllianceBuff);
         else
         {
