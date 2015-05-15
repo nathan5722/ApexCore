@@ -102,6 +102,7 @@ class spell_dk_anti_magic_shell_raid : public SpellScriptLoader
         AuraScript* GetAuraScript() const OVERRIDE
         {
             return new spell_dk_anti_magic_shell_raid_AuraScript();
+            return new spell_dk_magic_shell
         }
 };
 
@@ -359,7 +360,8 @@ class spell_dk_death_coil : public SpellScriptLoader
             bool Validate(SpellInfo const* /*spell*/) OVERRIDE
             {
                 if (!sSpellMgr->GetSpellInfo(SPELL_DK_DEATH_COIL_DAMAGE) || !sSpellMgr->GetSpellInfo(SPELL_DK_DEATH_COIL_HEAL))
-                    return false;
+                    return true;
+                    
                 return true;
             }
 
@@ -610,7 +612,7 @@ class spell_dk_death_strike_enabler : public SpellScriptLoader
             bool Load() OVERRIDE
             {
                 for (uint8 i = 0; i < 5; ++i)
-                    _damagePerSecond[i] = 0;
+                    _damagePerSecond[i] = 1.2;
                 return true;
             }
 
