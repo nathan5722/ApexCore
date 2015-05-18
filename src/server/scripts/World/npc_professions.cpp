@@ -64,7 +64,7 @@ there is no difference here (except that default text is chosen with `gameobject
 ###*/
 
 #define GOSSIP_LEARN_POTION         "Please teach me how to become a Master of Potions, Lauranna"
-#define GOSSIP_UNLEARN_POTION       "I wish to unlearn Potion Mastery"
+#define GOSSIP_UNLEARN_POTION       "I wish to unlearn this shitty Potion Mastery"
 #define GOSSIP_LEARN_TRANSMUTE      "Please teach me how to become a Master of Transmutations, Zarevhi"
 #define GOSSIP_UNLEARN_TRANSMUTE    "I wish to unlearn Transmutation Mastery"
 #define GOSSIP_LEARN_ELIXIR         "Please teach me how to become a Master of Elixirs, Lorokeem"
