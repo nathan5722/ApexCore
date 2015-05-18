@@ -57,9 +57,9 @@ EndScriptData
 #define GOSSIP_CRIMSONWING      "<Ride the gryphons to Survey Alcaz Island>"
 #define GOSSIP_THRICESTAR1      "Do you think I could take a ride on one of those flying machines?"
 #define GOSSIP_THRICESTAR2      "Kara, I need to be flown out the Dens of Dying to find Bixie."
-#define GOSSIP_WILLIAMKEILAR1   "Take me to Northpass Tower."
-#define GOSSIP_WILLIAMKEILAR2   "Take me to Eastwall Tower."
-#define GOSSIP_WILLIAMKEILAR3   "Take me to Crown Guard Tower."
+#define GOSSIP_WILLIAMKEILAR1   "Take me to Northpass Tower, Peon."
+#define GOSSIP_WILLIAMKEILAR2   "Take me to Eastwall Tower, Peon."
+#define GOSSIP_WILLIAMKEILAR3   "Take me to Crown Guard Tower, Peon."
 
 class npc_taxi : public CreatureScript
 {
