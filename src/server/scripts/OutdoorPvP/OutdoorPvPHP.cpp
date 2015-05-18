@@ -120,9 +120,9 @@ bool OutdoorPvPHP::Update(uint32 diff)
     bool changed = OutdoorPvP::Update(diff);
     if (changed)
     {
-        if (m_AllianceTowersControlled == 4)
+        if (m_AllianceTowersControlled == 3)
             TeamApplyBuff(TEAM_ALLIANCE, AllianceBuff, HordeBuff);
-        else if (m_HordeTowersControlled == 4)
+        else if (m_HordeTowersControlled == 3)
             TeamApplyBuff(TEAM_HORDE, HordeBuff, AllianceBuff);
         else
         {
